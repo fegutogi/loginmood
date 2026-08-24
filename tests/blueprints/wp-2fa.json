@@ -1,0 +1,12 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "extraLibraries": ["wp-cli"],
+  "steps": [
+    {
+      "step": "installPlugin",
+      "pluginData": { "resource": "wordpress.org/plugins", "slug": "wp-2fa" },
+      "options": { "activate": true }
+    },
+    { "step": "wp-cli", "command": "wp plugin is-active wp-2fa" }
+  ]
+}

@@ -1,0 +1,557 @@
+# Copyright (C) 2026 Fegutogi
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: LoginMood 1.0.0-rc.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/loginmood\n"
+"POT-Creation-Date: 2026-08-21T21:18:50+00:00\n"
+"PO-Revision-Date: 2026-08-20T18:32:12+00:00\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: loginmood\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+#: loginmood.php admin/class-loginmood-admin.php:47
+#: admin/class-loginmood-admin.php:48 admin/class-loginmood-admin.php:167
+msgid "LoginMood"
+msgstr "LoginMood"
+
+#. Plugin URI of the plugin
+#: loginmood.php
+msgid "https://fegutogi.com/plugins/loginmood"
+msgstr ""
+
+#. Description of the plugin
+#: loginmood.php
+msgid ""
+"Make the WordPress login feel like your site with focused visual identity, "
+"color, background, and content controls."
+msgstr ""
+"Haz que el acceso de WordPress se sienta parte de tu sitio con controles "
+"específicos de identidad visual, color, fondo y contenido."
+
+#. Author of the plugin
+#: loginmood.php
+msgid "Fegutogi"
+msgstr "Fegutogi"
+
+#. Author URI of the plugin
+#: loginmood.php
+msgid "https://fegutogi.com"
+msgstr ""
+
+#: admin/class-loginmood-admin.php:99 admin/class-loginmood-admin.php:218
+msgid "Choose logo"
+msgstr "Seleccionar logo"
+
+#: admin/class-loginmood-admin.php:100
+msgid "Choose background"
+msgstr "Seleccionar fondo"
+
+#: admin/class-loginmood-admin.php:101
+msgid "Use this image"
+msgstr "Usar esta imagen"
+
+#: admin/class-loginmood-admin.php:102
+msgid "Contrast"
+msgstr "Contraste"
+
+#: admin/class-loginmood-admin.php:103
+msgid "text"
+msgstr "texto"
+
+#: admin/class-loginmood-admin.php:104
+msgid "background"
+msgstr "fondo"
+
+#: admin/class-loginmood-admin.php:105
+msgid "button"
+msgstr "botón"
+
+#: admin/class-loginmood-admin.php:106
+msgid "field"
+msgstr "campo"
+
+#: admin/class-loginmood-admin.php:107
+msgid "AA passed"
+msgstr "AA aprobado"
+
+#: admin/class-loginmood-admin.php:108
+msgid "review the colors to reach AA"
+msgstr "revisa los colores para alcanzar AA"
+
+#: admin/class-loginmood-admin.php:109
+msgid "Reset all LoginMood settings to their defaults?"
+msgstr ""
+"¿Restaurar todos los ajustes de LoginMood a sus valores predeterminados?"
+
+#: admin/class-loginmood-admin.php:110 admin/class-loginmood-admin.php:492
+msgid "Choose from palette"
+msgstr "Elegir de la paleta"
+
+#: admin/class-loginmood-admin.php:111
+msgid "Custom"
+msgstr "Personalizado"
+
+#: admin/class-loginmood-admin.php:112
+msgid "Palette loaded"
+msgstr "Paleta cargada"
+
+#: admin/class-loginmood-admin.php:113
+msgid "No palette loaded"
+msgstr "No hay una paleta cargada"
+
+#: admin/class-loginmood-admin.php:114
+msgid "No valid colors were found in that file."
+msgstr "No se encontraron colores válidos en ese archivo."
+
+#: admin/class-loginmood-admin.php:115
+msgid "The palette file could not be read."
+msgstr "No se pudo leer el archivo de paleta."
+
+#: admin/class-loginmood-admin.php:116 admin/class-loginmood-admin.php:368
+msgid "Drop the palette file here"
+msgstr "Arrastra el archivo de paleta aquí"
+
+#: admin/class-loginmood-admin.php:117 admin/class-loginmood-admin.php:379
+msgid "Imported colors"
+msgstr "Colores importados"
+
+#: admin/class-loginmood-admin.php:118 admin/class-loginmood-admin.php:292
+#: admin/class-loginmood-admin.php:382
+msgid "Color"
+msgstr "Color"
+
+#: admin/class-loginmood-admin.php:119 admin/class-loginmood-admin.php:382
+msgid "Name"
+msgstr "Nombre"
+
+#: admin/class-loginmood-admin.php:120 admin/class-loginmood-admin.php:382
+msgid "HEX code"
+msgstr "Código HEX"
+
+#: admin/class-loginmood-admin.php:121
+msgid "No name"
+msgstr "Sin nombre"
+
+#: admin/class-loginmood-admin.php:122 admin/class-loginmood-admin.php:212
+#: admin/class-loginmood-admin.php:214
+msgid "Drop the logo here"
+msgstr "Arrastra el logo aquí"
+
+#: admin/class-loginmood-admin.php:123
+msgid "Uploading logo…"
+msgstr "Cargando logo…"
+
+#: admin/class-loginmood-admin.php:124
+msgid "The logo could not be uploaded."
+msgstr "No se pudo cargar el logo."
+
+#: admin/class-loginmood-admin.php:141
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/class-loginmood-admin.php:168
+msgid ""
+"Customize the login experience without depending on the active theme or "
+"modifying WordPress."
+msgstr ""
+"Personaliza el acceso sin depender del tema activo ni modificar WordPress."
+
+#: admin/class-loginmood-admin.php:171
+msgid "The settings were imported successfully."
+msgstr "La configuración se importó correctamente."
+
+#: admin/class-loginmood-admin.php:173
+msgid ""
+"The file could not be imported. Make sure it is a JSON file exported by this "
+"plugin."
+msgstr ""
+"No se pudo importar el archivo. Comprueba que sea un JSON exportado por este "
+"plugin."
+
+#: admin/class-loginmood-admin.php:175
+msgid "The default settings were restored."
+msgstr "Se restauraron los ajustes predeterminados."
+
+#: admin/class-loginmood-admin.php:186
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: admin/class-loginmood-admin.php:207
+msgid "Identity"
+msgstr "Identidad"
+
+#: admin/class-loginmood-admin.php:209
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/class-loginmood-admin.php:219 admin/class-loginmood-admin.php:315
+msgid "Remove"
+msgstr "Quitar"
+
+#: admin/class-loginmood-admin.php:220
+msgid ""
+"PNG, JPG, WebP, or sanitized SVG. SVG uploads are restricted to "
+"administrators."
+msgstr ""
+"PNG, JPG, WebP o SVG sanitizado. La carga de SVG está restringida a "
+"administradores."
+
+#: admin/class-loginmood-admin.php:223
+msgid "No logo"
+msgstr "Sin logo"
+
+#: admin/class-loginmood-admin.php:224
+msgid ""
+"Hides the logo without removing the selected image, so it can be restored "
+"later."
+msgstr ""
+"Oculta el logo sin eliminar la imagen seleccionada, para poder recuperarla "
+"más adelante."
+
+#: admin/class-loginmood-admin.php:228
+msgid "Logo width"
+msgstr "Ancho del logo"
+
+#: admin/class-loginmood-admin.php:230
+msgid "Space between logo and panel"
+msgstr "Separación entre logo y panel"
+
+#: admin/class-loginmood-admin.php:231
+msgid "Limited to 80 px to keep the login composition balanced."
+msgstr "Limitada a 80 px para mantener equilibrada la composición del acceso."
+
+#: admin/class-loginmood-admin.php:234
+msgid "Logo link"
+msgstr "Enlace del logo"
+
+#: admin/class-loginmood-admin.php:238
+msgid "Logo shape"
+msgstr "Forma del logo"
+
+#: admin/class-loginmood-admin.php:240
+msgid "No clipping"
+msgstr "Sin recorte"
+
+#: admin/class-loginmood-admin.php:241
+msgid "Rounded"
+msgstr "Redondeado"
+
+#: admin/class-loginmood-admin.php:242
+msgid "Circle"
+msgstr "Circular"
+
+#: admin/class-loginmood-admin.php:244
+msgid "Use no clipping for transparent logos."
+msgstr "Usa Sin recorte para logos con transparencia."
+
+#: admin/class-loginmood-admin.php:247
+msgid "Logo border"
+msgstr "Borde del logo"
+
+#: admin/class-loginmood-admin.php:249 admin/class-loginmood-admin.php:257
+msgid "None"
+msgstr "Ninguno"
+
+#: admin/class-loginmood-admin.php:250
+msgid "Thin"
+msgstr "Fino"
+
+#: admin/class-loginmood-admin.php:251 admin/class-loginmood-admin.php:259
+msgid "Strong"
+msgstr "Marcado"
+
+#: admin/class-loginmood-admin.php:255
+msgid "Logo shadow"
+msgstr "Sombra del logo"
+
+#: admin/class-loginmood-admin.php:258
+msgid "Soft"
+msgstr "Suave"
+
+#: admin/class-loginmood-admin.php:264
+msgid "Border color"
+msgstr "Color del borde"
+
+#: admin/class-loginmood-admin.php:267
+msgid "Clipped logo background"
+msgstr "Fondo del logo recortado"
+
+#: admin/class-loginmood-admin.php:268
+msgid ""
+"Used only for rounded and circular logos. No clipping always stays "
+"transparent."
+msgstr ""
+"Se usa solo en logos redondeados y circulares. Sin recorte siempre mantiene "
+"la transparencia."
+
+#: admin/class-loginmood-admin.php:271
+msgid "Shadow color"
+msgstr "Color de la sombra"
+
+#: admin/class-loginmood-admin.php:272
+msgid "Choose a light or dark shadow color to suit the background."
+msgstr "Elige un color de sombra claro u oscuro según el fondo."
+
+#: admin/class-loginmood-admin.php:288
+msgid "Background"
+msgstr "Fondo"
+
+#: admin/class-loginmood-admin.php:290
+msgid "Background type"
+msgstr "Tipo de fondo"
+
+#: admin/class-loginmood-admin.php:293
+msgid "Gradient"
+msgstr "Degradado"
+
+#: admin/class-loginmood-admin.php:294
+msgid "Image"
+msgstr "Imagen"
+
+#: admin/class-loginmood-admin.php:298
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: admin/class-loginmood-admin.php:301
+msgid "Start color"
+msgstr "Color inicial"
+
+#: admin/class-loginmood-admin.php:302
+msgid "End color"
+msgstr "Color final"
+
+#: admin/class-loginmood-admin.php:304
+msgid "Angle"
+msgstr "Ángulo"
+
+#: admin/class-loginmood-admin.php:314
+msgid "Choose image"
+msgstr "Seleccionar imagen"
+
+#: admin/class-loginmood-admin.php:331
+msgid "Colors and shape"
+msgstr "Colores y forma"
+
+#: admin/class-loginmood-admin.php:333
+msgid "Visual presets"
+msgstr "Presets visuales"
+
+#: admin/class-loginmood-admin.php:334
+msgid "Presets:"
+msgstr "Presets:"
+
+#: admin/class-loginmood-admin.php:335
+msgid "Light"
+msgstr "Claro"
+
+#: admin/class-loginmood-admin.php:336
+msgid "Dark"
+msgstr "Oscuro"
+
+#: admin/class-loginmood-admin.php:337
+msgid "Ocean"
+msgstr "Océano"
+
+#: admin/class-loginmood-admin.php:340
+msgid "Panel"
+msgstr "Panel"
+
+#: admin/class-loginmood-admin.php:341
+msgid "Button"
+msgstr "Botón"
+
+#: admin/class-loginmood-admin.php:342
+msgid "Panel text"
+msgstr "Texto del panel"
+
+#: admin/class-loginmood-admin.php:343
+msgid "Background text"
+msgstr "Texto del fondo"
+
+#: admin/class-loginmood-admin.php:344
+msgid "Links"
+msgstr "Enlaces"
+
+#: admin/class-loginmood-admin.php:345
+msgid "Button text"
+msgstr "Texto del botón"
+
+#: admin/class-loginmood-admin.php:346
+msgid "Field background"
+msgstr "Fondo de los campos"
+
+#: admin/class-loginmood-admin.php:347
+msgid "Field text"
+msgstr "Texto de los campos"
+
+#: admin/class-loginmood-admin.php:350
+msgid "Panel corner radius"
+msgstr "Radio de bordes del panel"
+
+#: admin/class-loginmood-admin.php:351
+msgid "Field and button corner radius"
+msgstr "Radio de bordes de campos y botón"
+
+#: admin/class-loginmood-admin.php:364
+msgid "Brand color palette"
+msgstr "Paleta de colores de marca"
+
+#: admin/class-loginmood-admin.php:370
+msgid "Browse files"
+msgstr "Explorar archivos"
+
+#: admin/class-loginmood-admin.php:374
+msgid "Clear palette"
+msgstr "Vaciar paleta"
+
+#: admin/class-loginmood-admin.php:376
+msgid ""
+"Supported formats: JSON, TXT, CSS, CSV, Adobe ASE, and GIMP GPL. Up to 32 "
+"colors are stored with the plugin settings."
+msgstr ""
+"Formatos compatibles: JSON, TXT, CSS, CSV, Adobe ASE y GPL de GIMP. Se "
+"guardan hasta 32 colores con los ajustes del plugin."
+
+#: admin/class-loginmood-admin.php:399
+msgid "Content and behavior"
+msgstr "Contenido y comportamiento"
+
+#: admin/class-loginmood-admin.php:401
+msgid "Footer text"
+msgstr "Texto al pie"
+
+#: admin/class-loginmood-admin.php:405
+msgid "Enable entrance animation"
+msgstr "Animar la entrada"
+
+#: admin/class-loginmood-admin.php:406
+msgid "Hide the language selector"
+msgstr "Ocultar el selector de idioma"
+
+#: admin/class-loginmood-admin.php:407
+msgid "Delete settings when uninstalling the plugin"
+msgstr "Eliminar la configuración al desinstalar el plugin"
+
+#: admin/class-loginmood-admin.php:418
+msgid "Tools"
+msgstr "Herramientas"
+
+#: admin/class-loginmood-admin.php:419
+msgid "Reuse a visual identity on another site with a JSON file."
+msgstr "Reutiliza una identidad visual en otro sitio mediante un archivo JSON."
+
+#: admin/class-loginmood-admin.php:420
+msgid "Export settings"
+msgstr "Exportar configuración"
+
+#: admin/class-loginmood-admin.php:424
+msgid "Settings file"
+msgstr "Archivo de configuración"
+
+#: admin/class-loginmood-admin.php:426
+msgid "Import"
+msgstr "Importar"
+
+#: admin/class-loginmood-admin.php:429
+msgid "Restore default settings"
+msgstr "Restaurar ajustes predeterminados"
+
+#: admin/class-loginmood-admin.php:445
+msgid "Preview"
+msgstr "Vista previa"
+
+#: admin/class-loginmood-admin.php:446
+msgid "Open login"
+msgstr "Abrir login"
+
+#: admin/class-loginmood-admin.php:446
+msgid "(opens in a new tab)"
+msgstr "(abre en una pestaña nueva)"
+
+#: admin/class-loginmood-admin.php:458
+msgid "Username or email address"
+msgstr "Nombre de usuario o correo electrónico"
+
+#: admin/class-loginmood-admin.php:459
+msgid "Password"
+msgstr "Contraseña"
+
+#: admin/class-loginmood-admin.php:460
+msgid "Remember me"
+msgstr "Recuérdame"
+
+#: admin/class-loginmood-admin.php:460
+msgid "Log in"
+msgstr "Acceder"
+
+#: admin/class-loginmood-admin.php:462
+msgid "Lost your password?"
+msgstr "¿Has olvidado tu contraseña?"
+
+#. translators: %s: color setting label.
+#: admin/class-loginmood-admin.php:480
+#, php-format
+msgid "Palette color for %s"
+msgstr "Color de paleta para %s"
+
+#. translators: %s: color setting label.
+#: admin/class-loginmood-admin.php:482
+#, php-format
+msgid "Visual color picker for %s"
+msgstr "Selector visual de color para %s"
+
+#: admin/class-loginmood-admin.php:488
+msgid "Pick a color from the screen"
+msgstr "Tomar un color de la pantalla"
+
+#: admin/class-loginmood-admin.php:554 admin/class-loginmood-admin.php:578
+#: admin/class-loginmood-admin.php:622
+msgid "You are not allowed to perform this action."
+msgstr "No tienes permisos para realizar esta acción."
+
+#: includes/class-loginmood-svg.php:54
+msgid "SVG files can only be uploaded by administrators."
+msgstr "Solo los administradores pueden subir archivos SVG."
+
+#: includes/class-loginmood-svg.php:59
+msgid "SVG uploads require the PHP DOM extension."
+msgstr "La subida de SVG requiere la extensión DOM de PHP."
+
+#: includes/class-loginmood-svg.php:158 includes/class-loginmood-svg.php:163
+#: includes/class-loginmood-svg.php:173 includes/class-loginmood-svg.php:179
+msgid "This SVG file is invalid or contains unsupported content."
+msgstr "Este archivo SVG no es válido o contiene elementos no compatibles."
+
+#~ msgid ""
+#~ "Customize the WordPress login screen with identity, color, background, "
+#~ "and content controls."
+#~ msgstr ""
+#~ "Personaliza la pantalla de acceso de WordPress con controles de "
+#~ "identidad, color, fondo y contenido."
+
+#~ msgid ""
+#~ "Supported formats: JSON, TXT, CSS, and GIMP GPL. Up to 32 colors are "
+#~ "stored with the plugin settings."
+#~ msgstr ""
+#~ "Formatos compatibles: JSON, TXT, CSS y GPL de GIMP. Se guardan hasta 32 "
+#~ "colores con los ajustes del plugin."
+
+#~ msgid "Text"
+#~ msgstr "Texto"
+
+#~ msgid "Button shape"
+#~ msgstr "Forma del botón"
+
+#~ msgid "Square"
+#~ msgstr "Recto"
+
+#~ msgid "Pill"
+#~ msgstr "Pill"

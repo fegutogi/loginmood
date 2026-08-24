@@ -1,0 +1,15 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "extraLibraries": ["wp-cli"],
+  "steps": [
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "url",
+        "url": "https://github.com/strangerstudios/paid-memberships-pro/archive/refs/tags/3.8.4.zip"
+      },
+      "options": { "activate": true, "targetFolderName": "paid-memberships-pro" }
+    },
+    { "step": "wp-cli", "command": "wp plugin is-active paid-memberships-pro" }
+  ]
+}

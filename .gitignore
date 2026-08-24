@@ -1,0 +1,8 @@
+node_modules/
+test-results/
+playwright-report/
+.qa-runtime/
+.DS_Store
+.env
+.env.*
+*.log

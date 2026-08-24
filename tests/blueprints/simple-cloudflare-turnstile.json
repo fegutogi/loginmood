@@ -1,0 +1,12 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "extraLibraries": ["wp-cli"],
+  "steps": [
+    {
+      "step": "installPlugin",
+      "pluginData": { "resource": "wordpress.org/plugins", "slug": "simple-cloudflare-turnstile" },
+      "options": { "activate": true }
+    },
+    { "step": "wp-cli", "command": "wp plugin is-active simple-cloudflare-turnstile" }
+  ]
+}
