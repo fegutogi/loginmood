@@ -1,6 +1,8 @@
 import { defineConfig, devices } from '@playwright/test';
 
 const baseURL = process.env.LOGINMOOD_QA_BASE_URL || 'http://127.0.0.1:9400';
+// macOS reference images render with small font and antialiasing differences on Linux runners.
+const visualMaxDiffPixelRatio = process.env.CI ? 0.04 : 0.01;
 
 export default defineConfig( {
 	testDir: './tests/e2e',
@@ -10,7 +12,7 @@ export default defineConfig( {
 	timeout: 30000,
 	snapshotPathTemplate: '{testDir}/{testFilePath}-snapshots/{arg}-{projectName}{ext}',
 	expect: {
-		toHaveScreenshot: { maxDiffPixelRatio: 0.01 },
+		toHaveScreenshot: { maxDiffPixelRatio: visualMaxDiffPixelRatio },
 	},
 	use: {
 		baseURL,
