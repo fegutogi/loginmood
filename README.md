@@ -46,6 +46,8 @@ Service-backed challenges and account-dependent features still require real cred
 
 See [`tests/README.md`](tests/README.md) for the automated QA commands and [`docs/theme-integration.md`](docs/theme-integration.md) for the starter-theme contract.
 
+Official logo, icon, WordPress.org banner, and GitHub social-preview specifications are documented in [`docs/brand-assets.md`](docs/brand-assets.md).
+
 ## Project links
 
 - Author: [Fegutogi](https://fegutogi.com)
