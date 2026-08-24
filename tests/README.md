@@ -26,6 +26,8 @@ npm run qa:visual
 
 Approved screenshots cover desktop and mobile login, error, and lost-password states. Use `qa:visual:update` only after reviewing an intentional visual change.
 
+Local visual comparisons use a strict 1% pixel-difference ceiling. Linux CI runners use a 4% ceiling to absorb known font-rasterization and antialiasing differences from the macOS reference images; functional, dimensional, responsive, and contrast assertions remain separate and strict.
+
 ## Compatibility matrix
 
 ```bash
