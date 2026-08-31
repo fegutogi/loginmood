@@ -25,6 +25,6 @@
   },
   "devDependencies": {
     "@playwright/test": "1.62.1",
-    "@wp-playground/cli": "3.1.50"
+    "@wp-playground/cli": "3.1.51"
   }
 }
